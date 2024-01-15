@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Proficient</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/lightslider.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- Nav Bar Moblie -->
+    <section class="nav-bar-moblie shadow-sm">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="main-logo">
+                    <img src="assets/img/logo-proficient.png" alt="">
+                </div>
+
+                <div class="toggle-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <ul class="mobile-menu">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a href="product.html">OUR PRODUCT</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+    </ul>
+
+    <!-- Nav Bar -->
+    <section class="nav-bar shadow-sm">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="main-logo">
+
+                    <img src="assets/img/logo-proficient.png" alt="">
+                </div>
+
+                <div class="menu-bar row">
+                    <ul class="main-menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li class="active"><a href="product.html">OUR PRODUCT</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-icon">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Home -->
+    <section class="head-banner">
+        <div class="gradient-bg">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="head-text wow fadeInDown">
+                    <h1 class="haed-title">ติดต่อซัพพายเออร์</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Products -->
+    <section class="products-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="box-headdetail d-flex align-items-center">
+                        <i class="far fa-gift"></i>
+                        <h3>สินค้าที่คุณสนใจ</h3>
+                    </div>
+
+                    <div class="box-detailproduct">
+                        <h4>ข้อมูลสินค้า</h4>
+
+                        <div class="box-name">
+                            <div class="box-img">
+                                <img src="assets/img/products-9.jpg" alt="">
+                            </div>
+
+                            <div class="box-type">
+                                <h3>Therma33 Food Check</h3>
+                                <p>Food Thermometers</p>
+                                <h4>Order Code: 234-447</h4>
+                            </div>
+                        </div>
+
+                        <div class="box-descproduct">
+                            <h4>รายละเอียดสินค้า</h4>
+
+                            <div class="box-desc-product d-flex">
+                                <div class="line-left"></div>
+                                <div class="desc-product">
+                                    <p>Thermamite® catering thermometer complete with food penetration probe</p>
+                                    <div class="boxlist-detail">
+                                        <ul class="list-detail">
+                                            <li>FREE traceable calibration certificate</li>
+                                            <li>meets the European Standard EN 13485</li>
+                                            <li>includes ‘Biomaster’ anti-bacterial additive</li>
+                                            <li>compact & robust design</li>
+                                            <li>2 year guarantee</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-message">
+                        <div class="box-headmessage d-flex">
+                            <h3 class="text-danger">*</h3>
+                            <h3>ข้อความ</h3>
+                        </div>
+
+                        <div class="box-input">
+                            <h4>ใส่รายละเอียดสินค้า เช่น สี ขนาด วัสดุ ฯลฯ รวมทั้งข้อกำหนดจำเพาะอื่น ๆ
+                                เพื่อรับการเสนอราคาที่ถูกต้อง</h4>
+                            <textarea id="subject" name="subject"
+                                placeholder="ใส่รายละเอียดสินค้า เช่น สี ขนาด วัสดุ ฯลฯ รวมทั้งข้อกำหนดจำเพาะอื่น ๆ เพื่อรับการเสนอราคาที่ถูกต้อง"
+                                style="height:300px;width: 100%;padding: 1rem;"></textarea>
+                        </div>
+
+                        <form method="POST" action="#" enctype="multipart/form-data">
+                            <!-- COMPONENT START -->
+                            <div class="form-group">
+                                <div class="input-group input-file" name="Fichier1" style="width:70%">
+                                    <input type="text" class="form-control" placeholder='Choose a file...' />
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default btn-choose" type="button">Choose</button>
+                                    </span>
+
+
+                                </div>
+                            </div>
+                            <!-- COMPONENT END -->
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary pull-right" disabled>Submit</button>
+                                <button type="reset" class="btn btn-danger">Reset</button>
+                            </div>
+                        </form>
+
+                        <div class="box-email">
+                            <div class="box-headmessage d-flex">
+                                <h3 class="text-danger">*</h3>
+                                <h3>กรุณาใส่อีเมลของท่าน : </h3>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email" style="width:70%">
+                                <p>กรุณาตรวจสอบความถูกต้องของอีเมลที่คุณกรอก</p>
+                            </div>
+
+                            <button type="submit" class="submit-button btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+
+    <!-- Footer Moblie -->
+    <footer class="sec-footer-moblie d-block d-md-none">
+        <div class="container">
+            <div class="footer-moblie">
+                <div class="contact-footer">
+                    <img src="assets/img/logo-white.png" alt="">
+                    <p><i class="fas fa-phone"></i>662-560-0041</p>
+                    <p><i class="fas fa-fax"></i>662-560-0042</p>
+                    <p><i class="fas fa-envelope"></i>proficient_t@yahoo.co.th</p>
+                </div>
+
+                <ul class="menu-footer">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Our Product</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+                <div class="address-footer">
+                    <div class="social-icon">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-line"></i></a>
+                    </div>
+                    <p>36/36 Moo 3, Buengkhamphroi, Lamlukka, Pathumthani 12150 Thailand</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer -->
+    <footer class="sec-footer d-none d-md-block">
+        <div class="container">
+            <div class="row  wow fadeInRight">
+                <div class="col-md-4">
+                    <div class="contact-footer">
+                        <img src="assets/img/logo-white.png" alt="">
+                        <p><i class="fas fa-phone"></i>662-560-0041</p>
+                        <p><i class="fas fa-fax"></i>662-560-0042</p>
+                        <p><i class="fas fa-envelope"></i>proficient_t@yahoo.co.th</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="menu-footer">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Our Product</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="address-footer">
+                        <div class="social-icon">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-line"></i></a>
+                        </div>
+                        <p>36/36 Moo 3, Buengkhamphroi, Lamlukka, Pathumthani 12150 Thailand</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="copy-right">
+        <div class="container text-center">
+            <p>© Copyright. All rights reserved.</p>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/js/lightslider.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/parallax.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/all.min.js"></script>
+</body>
+
+</html>
